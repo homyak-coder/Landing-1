@@ -5,149 +5,319 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing 1</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Open+Sans:wght@400;800&family=Source+Sans+Pro:wght@200;400&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div id="block1">
-      <table style="width: 100%">
-        <tr>
-          <td>
+    <header class="header">
+      <div class="container">
+        <div class="header-container">
+          <div class="header-top">
+            <img
+              src="./img/logo-white.png"
+              alt="Learn Up Logo"
+              class="learnup-pic"
+            />
+            <span class="december">December 2021</span>
+          </div>
+          <!-- /.header-top -->
+          <div class="header-buttom">
+            <div class="header-devices">
+              <div class="apple">
+                <img
+                  src="./img/apple-icon.svg"
+                  alt="Apple icon"
+                  class="apple-img"
+                />
+                <span class="ios">iOS</span>
+              </div>
+              <!-- /.apple -->
+              <div class="android">
+                <img
+                  src="./img/android-icon.svg"
+                  alt="Android icon"
+                  class="android-img"
+                />
+                <span class="android-span">Android</span>
+              </div>
+              <!-- /.android -->
+            </div>
+            <!-- ./header-devices -->
+            <div class="header-choose">
+              <div class="choose">CHOOSE</div>
+              <div class="flutter">FLUTTER</div>
+              <div class="both">TO CHOOSE BOTH</div>
+            </div>
+            <!-- /.header-choose -->
+            <button class="header-register">REGISTER</button>
+            <!-- /.header-register -->
+          </div>
+          <!-- /.header-buttom -->
+        </div>
+        <!-- /.header-container -->
+      </div>
+      <!-- /.container -->
+    </header>
+    <!-- /.header -->
+    <section class="workshop">
+      <div class="container">
+        <div class="workshop-container">
+          <div class="workshop-up">
             <img
               src="./img/logo-black.png"
-              srcset="./img/logo-black@2x.png 2x, ./img/logo-black@4x.png 4x"
-              alt="Логотип LearnUp"
+              alt="LearnUp Logo"
+              class="leranup-logo"
             />
-          </td>
-          <td align="right">DECEMBER 2021</td>
-        </tr>
-      </table>
-      <img
-        src="./img/human.png"
-        srcset="./img/human@2x.png 2x, ./img/human@4x.png 4x"
-        alt="Human"
-      />
-      <h1
-        style="
-          font-family: 'Open Sans';
-          font-weight: 800;
-          font-size: 56px;
-          text-align: center;
-          text-transform: uppercase;
-        "
-      >
-        CHOOSE FLUTTER TO CHOOSE BOTH
-      </h1>
-      <button>REGISTER</button>
-    </div>
-    <div id="block2">
-      <h2 style="color: #000000">WORKSHOP</h2>
-      <p>
-        We're launching a series of practical workshops on development in
-        January 2020. We'll teach you how to know your way around software,
-        share the latest news, and help to start.
-      </p>
-      <p>
-        First workshop will familiarize you with cross-platform mobile
-        development toolkit called Flutter. Join if you're aspiring to learn how
-        to develop mobile apps and master new tools, but unsure what to start
-        with.
-      </p>
-    </div>
-    <!-- ./second-block -->
-    <div id="block3">
-      <h2 style="color: #ffffff">WHEN AND WHERE</h2>
-      <div>
-        <div>
-          <h3>Where</h3>
-          <p>Moscow, office</p>
+            <span class="workshop-text">WORKSHOP</span>
+            <button class="workshop-register">Register</button>
+          </div>
+          <!-- /.workshop-up -->
+          <div class="workshop-description">
+            <div
+              class="
+                workshop-description__text workshop-description__text--upper
+              "
+            >
+              We're launching a series of practical workshops on development in
+              January 2020. We'll teach you how to know your way around
+              software, share the latest news, and help to start.
+            </div>
+            <div class="workshop-description__text">
+              First workshop will familiarize you with cross-platform mobile
+              development toolkit called Flutter. Join if you're aspiring to
+              learn how to develop mobile apps and master new tools, but unsure
+              what to start with.
+            </div>
+          </div>
+          <!-- /.workshop-description -->
+          <div class="workshop-about">
+            <div class="workshop-about__item">
+              <img
+                src="./img/workshop-first.png"
+                alt="Workshop First"
+                class="workshop-about__pic workshop-about__pic--first"
+              />
+              <span class="workshop-about__text">ABOUT WHAT</span>
+              <span class="workshop-about__description"
+                >Platform perks, intro to Dart language and creating your own
+                apps. Bonus: intro to (fantastic) animation.</span
+              >
+            </div>
+            <div class="workshop-about__item">
+              <img
+                src="./img/workshop-second.png"
+                alt="Workshop Second"
+                class="workshop-about__pic workshop-about__pic--second"
+              />
+              <span class="workshop-about__text">FOR WHOM</span>
+              <span class="workshop-about__description"
+                >Students and IT professionals that try to decide if they want
+                to work with mobile app development fast..</span
+              >
+            </div>
+            <div class="workshop-about__item">
+              <img
+                src="./img/workshop-second.png"
+                alt="Workshop Third"
+                class="workshop-about__pic workshop-about__pic--third"
+              />
+              <span class="workshop-about__text">WHY</span>
+              <span class="workshop-about__description"
+                >To cover cross-platform development bases quickly. Understand
+                pros and cons if it using workshop format.</span
+              >
+            </div>
+          </div>
+          <!-- /.workshop-about -->
         </div>
-        <div>
-          <h3>About the course</h3>
-          <p>Duration: 2 weeks.</p>
-          <p>Comprises 4 2-hour modules twice a week.</p>
-        </div>
-        <div>
-          <h3>When</h3>
-          <p>DECEMBER 2021</p>
-        </div>
+        <!-- /.workshop-container -->
       </div>
-    </div>
-    <div id="block4">
-      <h2 style="color: #000000">WHO</h2>
-      <table class="second-table" border="10px" width="50%">
-        <caption align="left">
-          Цены на флагманские модели iPhone и Xiaomi
-        </caption>
-        <thead>
-          <tr>
-            <th>Производитель</th>
-            <th>Модель</th>
-            <th>Цена</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td rowspan="3">Iphone</td>
-            <td>12 Pro</td>
-            <td>$999</td>
-          </tr>
-          <tr>
-            <td>12</td>
-            <td>$799</td>
-          </tr>
-          <tr>
-            <td>12 mini</td>
-            <td>$699</td>
-          </tr>
-          <tr>
-            <td rowspan="2">Xiaomi</td>
-            <td>Mi 10</td>
-            <td>$768</td>
-          </tr>
-          <tr>
-            <td>Black Shark 3 128Gb</td>
-            <td>$529</td>
-          </tr>
-        </tbody>
-        <tfoot>
-          <tr>
-            <td colspan="2">Средняя цена</td>
-            <td>$758.8</td>
-          </tr>
-        </tfoot>
-      </table>
-      <button>Register</button>
-    </div>
-    <div id="block5">
-      <h2 style="color: #ffffff">GET READY</h2>
-      <p>
-        We prepared some materials to get to know the platform. You're not
-        obliged to study them, but it'll help to learn the basics faster and
-        easier, prepare a list of questions to lecturers, and have a more
-        productive workshop experience.
-      </p>
-      <button>Register</button>
-    </div>
-    <!-- ./fifth-block -->
-    <div id="block6">
-      <h2 style="color: #000000">ORGANIZERS</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
-        dolorem eius non possimus velit. Atque eveniet facere magni molestias
-        nostrum nulla odio odit pariatur rerum sunt! A aperiam architecto,
-        beatae, ea eius est expedita facere, itaque minus nam obcaecati
-        perferendis quia quis soluta totam unde vero. Accusantium aperiam beatae
-        consequatur culpa dolor, earum eius expedita fuga illo ipsa libero
-        maiores maxime molestias nulla numquam obcaecati odit praesentium sunt
-        tenetur totam.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
-        dolorem eius non possimus velit. Atque eveniet facere magni molestias
-        nostrum nulla odio odit pariatur rerum sunt! A aperiam architecto,
-        beatae, ea eius est expedita facere, itaque minus nam obcaecati
-        perferendis quia quis soluta totam unde vero.
-      </p>
-    </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.workshop -->
+    <section class="when">
+      <div class="container">
+        <div class="when-container">
+          <div class="when-up">
+            <img
+              src="./img/logo-white.png"
+              alt="LearnUp Logo"
+              class="learnup-pic"
+            />
+            <span class="when-text">WHEN AND WHERE</span>
+            <button class="when-register">Register</button>
+          </div>
+          <!-- /.when-up -->
+          <div class="when-buttom">
+            <div class="when-buttom__left">
+              <span class="when-buttom__text">Where</span>
+              <div class="when-buttom__office">
+                <span class="office">Mosacow, office</span>
+                <span class="learnup">LearnUp</span>
+                <div class="adress">
+                  <img
+                    src="./img/learnup-address.svg"
+                    alt="Learnup Point"
+                    class="learnup-address"
+                  />
+                  <span class="sloboda">Sloboda st., 5</span>
+                </div>
+                <!-- ./address -->
+              </div>
+              <!-- ./when-buttom__office -->
+              <div class="when-buttom__text">When</div>
+              <div class="mounth">DECEMBER</div>
+              <div class="year">2021</div>
+            </div>
+            <!-- /.when-buttom__left -->
+            <div class="when-buttom__right">
+              <span class="when-buttom__text">About the course</span>
+              <span class="duration">Duration: 2 weeks.</span>
+              <div class="compirses">
+                Comprises 4 2-hour modules twice a week.
+              </div>
+              <span class="cost">Cost</span>
+              <span class="free">Free</span>
+            </div>
+            <!-- /.when-buttom__right -->
+          </div>
+          <!-- /.when-buttom -->
+        </div>
+        <!-- /.when-container -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.when -->
+    <section class="who">
+      <div class="container">
+        <div class="who-up">
+          <img
+            src="./img/logo-black.png"
+            alt="LearnUp Logo"
+            class="learnup-pic"
+          />
+          <span class="who-text">WHO</span>
+          <span class="date">December 2021</span>
+        </div>
+        <!-- /.when-up -->
+        <button class="who-register">Register</button>
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.who -->
+    <section class="ready">
+      <div class="container">
+        <div class="ready-up">
+          <img
+            src="./img/logo-black.png"
+            alt="LearnUp Logo"
+            class="learnup-pic"
+          />
+          <span class="ready-text">READY</span>
+          <span class="ready-date">December 2021</span>
+        </div>
+        <!-- /.ready-up -->
+        <div class="ready__text">
+          We prepared some materials to get to know the platform. You're not
+          obliged to study them, but it'll help to learn the basics faster and
+          easier, prepare a list of questions to lecturers, and have a more
+          productive workshop experience.
+        </div>
+        <!-- /.ready__text -->
+        <div class="ready-about">
+          <div class="ready-about__item">
+            <div class="ready-about__text">1. Watch</div>
+            <a href="#" class="ready-about__link ready-about__link--underlined"
+              >a boring Google presentation 😜</a
+            >
+          </div>
+          <div class="ready-about__item">
+            <div class="ready-about__text">2. Read</div>
+            <a href="#" class="ready-about__link"
+              >about Flutter <span class="underline">here</span> and
+              <span class="underline">here</span> on Habr🤓</a
+            >
+          </div>
+          <div class="ready-about__item">
+            <div class="ready-about__text">3. SCAN</div>
+            <a href="#" class="ready-about__link"
+              >Flutter <span class="underline">documentation</span>😭</a
+            >
+          </div>
+        </div>
+        <!-- /.ready__about -->
+        <button class="read-register">Register</button>
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.ready -->
+    <footer class="organizers">
+      <div class="container">
+        <div class="organizers-up">
+          <img
+            src="./img/logo-black.png"
+            alt="LearnUp Logo"
+            class="learnup-pic"
+          />
+          <span class="organizers-text">ORGANIZERS</span>
+          <button class="organizers-register">Register</button>
+        </div>
+        <!-- /.organizers-up -->
+        <div class="organizers-description">
+          <div
+            class="
+              organizers-description__text organizers-description__text--upper
+            "
+          >
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+            dolorem eius non possimus velit. Atque eveniet facere magni
+            molestias nostrum nulla odio odit pariatur rerum sunt! A aperiam
+            architecto, beatae, ea eius est expedita facere, itaque minus nam
+            obcaecati perferendis quia quis soluta totam unde vero. Accusantium
+            aperiam beatae consequatur culpa dolor, earum eius expedita fuga
+            illo ipsa libero maiores maxime molestias nulla numquam obcaecati
+            odit praesentium sunt tenetur totam.
+          </div>
+          <div class="organizers-description__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+            dolorem eius non possimus velit. Atque eveniet facere magni
+            molestias nostrum nulla odio odit pariatur rerum sunt! A aperiam
+            architecto, beatae, ea eius est expedita facere, itaque minus nam
+            obcaecati perferendis quia quis soluta totam unde vero.
+          </div>
+        </div>
+        <!-- /.organizers-description -->
+        <div class="organizers-buttom">
+          <div class="organizers__links">
+            <img
+              src="./img/facebook-icon.svg"
+              alt="Facebook icon"
+              class="organizers__links"
+            /><img
+              src="./img/instagram-icon.svg"
+              alt="Instagram icons"
+              class="organizers__links"
+            /><img
+              src="./img/linkedin-icon.svg"
+              alt="Linkedin icons"
+              class="organizers__links"
+            />
+            <span class="join">Join us in social media</span>
+          </div>
+          <button class="explore">Explore openings</button>
+        </div>
+        <!-- /.organizers-buttom -->
+        <div class="organizers__end">
+          <span class="organizers__left">© 2021 LearnUp</span>
+          <span class="organizers__right">email@learnup.ru</span>
+        </div>
+        <!-- /.organizers__end -->
+      </div>
+      <!-- /.container -->
+    </footer>
+    <!-- /.organizers -->
   </body>
 </html>
