@@ -192,17 +192,11 @@
 .workshop-about__pic {
   margin-bottom: 10px;
 }
-.workshop-about__pic--first {
-  max-width: 165px;
-  max-height: 136px;
-}
 .workshop-about__pic--second {
-  max-width: 166px;
-  max-height: 145px;
+  margin-top: -8px;
 }
 .workshop-about__pic--third {
-  max-width: 179px;
-  max-height: 151px;
+  margin-top: -15px;
 }
 .workshop-about__item {
   display: flex;
@@ -212,7 +206,7 @@
 .workshop-about__text {
   font-family: Fira Sans;
   font-style: normal;
-  font-weight: 800;
+  font-weight: bold;
   font-size: 24px;
   line-height: 29px;
   text-align: center;
